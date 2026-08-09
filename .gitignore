@@ -1,0 +1,52 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Django debug toolbar cache
+.cache/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE/editor files
+.idea/
+*.swp
+*~
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# My custom files (optional)
+*.pem
+*.key
+config.bat
+node_modules
